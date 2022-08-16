@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="icon/bank.png" type="image/x-icon" />
+    <title>Private Bank</title>
+    <!-- -------------Tailwind------------- -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl text-center mt-6">
+        Welcome to my
+        <span class="font-semibold text-blue-500"> Private Bank </span>
+      </h1>
+    </header>
+    <main>
+      <section class="w-9/12 bg-green-100 mx-auto mt-12 py-10 px-10 rounded-xl">
+        <h3 class="text-4xl text-center font-medium mb-8 text-emerald-900">
+          Please Login
+        </h3>
+        <div>
+          <div class="mb-2">
+            <label for="email" class="text-lg font-medium mr-9 text-slate-600"
+              >Your email</label
+            >
+            <input
+              class="p-1 rounded-md pl-3 outline-green-300 w-9/12"
+              type="email"
+              name=""
+              id="email"
+              placeholder="Example@mail.com"
+            />
+          </div>
+          <div class="mb-1">
+            <label
+              for="password"
+              class="text-lg font-medium mr-1 text-slate-600"
+              >Your password</label
+            >
+            <input
+              class="p-1 rounded-md pl-3 outline-green-300 w-9/12"
+              type="password"
+              name=""
+              id="password"
+              placeholder="Enter your password"
+            />
+          </div>
+          <button
+            class="bg-slate-500 hover:bg-slate-600 text-white px-6 py-2 rounded-md text-base font-semibold mt-2 uppercase"
+            id="btn-submit"
+          >
+            Submit
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- --------JavaScript-------- -->
+    <script src="login.js"></script>
+  </body>
+</html>
